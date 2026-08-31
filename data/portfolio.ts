@@ -208,6 +208,5 @@ export const projects: ProjectItem[] = [
 export const socials: SocialItem[] = [
   { label: "LinkedIn", href: "https://www.linkedin.com/in/mohit-pandey-a6132a369", icon: FaLinkedinIn },
   { label: "Email", href: "mailto:mohitpandey1703@gmail.com", icon: FaEnvelope },
-  { label: "Behance", href: "https://example.com/behance", icon: FaBehance },
   { label: "GitHub", href: "https://example.com/github", icon: FaGithub },
 ];

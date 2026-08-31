@@ -21,7 +21,7 @@ export function Header() {
           onClick={() => setActive("#home")}
         >
           <span className="relative drop-shadow-sm">
-            M<span className="text-[#f2c94c]">.</span>
+            Mohit Pandey<span className="text-[#f2c94c]">.</span>
           </span>
         </a>
 
