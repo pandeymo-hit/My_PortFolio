@@ -32,7 +32,7 @@ function HeroImage() {
           width={heroImage.width}
           height={heroImage.height}
           priority
-          sizes="(max-width: 768px) 74vw, 42vw"
+          sizes="(max-width: 768px) 84vw, 52vw"
           className="h-full w-full object-contain object-bottom"
         />
       </div>
@@ -50,7 +50,7 @@ export function HeroSection() {
       <div className="absolute inset-0 z-0 bg-[linear-gradient(90deg,rgba(16,16,16,0.055)_1px,transparent_1px),linear-gradient(180deg,rgba(16,16,16,0.04)_1px,transparent_1px)] bg-[size:25%_100%,100%_33.333%]" />
       <div className="absolute inset-x-0 bottom-0 z-0 h-32 bg-[linear-gradient(180deg,transparent,#fbfaf5)]" />
 
-      <div className="container-shell relative min-h-[680px] sm:min-h-[740px]">
+      <div className="container-shell relative min-h-[650px] sm:min-h-[740px]">
         <div className="relative z-10 pt-12 sm:pt-18">
           <p className="inline-flex items-center gap-2 text-[0.72rem] font-black uppercase text-[#59554d]">
             <Sparkles className="h-4 w-4 text-[#f2c94c]" aria-hidden="true" />
@@ -58,7 +58,7 @@ export function HeroSection() {
           </p>
         </div>
 
-        <h1 className="pointer-events-none absolute left-1/2 top-[130px] z-10 flex w-[130vw] -translate-x-1/2 select-none justify-center text-center text-[5.2rem] font-black leading-none text-black sm:top-[126px] sm:text-[8.5rem] md:text-[11rem] lg:top-[112px] lg:text-[14rem]">
+        <h1 className="pointer-events-none absolute left-1/2 top-[132px] z-10 flex w-full -translate-x-1/2 select-none justify-center whitespace-nowrap text-center text-[clamp(3rem,15vw,5.2rem)] font-black leading-none text-black sm:top-[126px] sm:w-[130vw] sm:text-[8.5rem] md:text-[11rem] lg:top-[112px] lg:text-[14rem]">
           <span>D</span>
           <span >e</span>
           <span>v</span>
@@ -73,12 +73,12 @@ export function HeroSection() {
 
         <HeroImage />
 
-        <div className="absolute bottom-30 left-0 z-30 max-w-[19rem] sm:bottom-26 md:bottom-24">
+        <div className="absolute bottom-26 left-0 z-30 max-w-[19rem] sm:bottom-26 md:bottom-24">
           <div className="border-l-4 border-[#f2c94c] pl-4">
-            <h2 className="text-[1.05rem] font-black uppercase leading-tight sm:text-[1.22rem]">
+            <h2 className="hidden sm:block text-[1.05rem] font-black uppercase leading-tight sm:text-[1.22rem]">
               A digital designer and creative developer.
             </h2>
-            <div className="mt-5 flex flex-wrap gap-3">
+            <div className="mt-3 flex flex-wrap gap-2 sm:mt-5 sm:gap-3">
               <span className="inline-flex items-center gap-2 border border-black/10 bg-white/72 px-3 py-2 text-[0.72rem] font-bold uppercase text-[#151515] backdrop-blur">
                 <Code2 className="h-4 w-4 text-[#f2c94c]" aria-hidden="true" />
                 Web Development
@@ -91,7 +91,7 @@ export function HeroSection() {
           </div>
         </div>
 
-        <div className="absolute bottom-8 right-0 z-30 grid w-[min(100%,22rem)] grid-cols-2 items-end gap-0 sm:bottom-10">
+        <div className="absolute bottom-4 right-0 z-30 grid w-[min(100%,22rem)] grid-cols-2 items-end gap-0 sm:bottom-10">
           <div className="border border-black/10 bg-white/80 px-5 py-5 backdrop-blur">
             <p className="text-3xl font-black leading-none">100%</p>
             <p className="mt-2 text-[0.68rem] font-bold uppercase leading-tight text-[#5f5a52]">
